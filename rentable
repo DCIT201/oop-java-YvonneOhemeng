@@ -1,0 +1,8 @@
+/**
+ * Interface representing rentable items.
+ * Demonstrates the use of polymorphism.
+ */
+public interface Rentable {
+    void rent(Customer customer, int days);
+    void returnVehicle();
+}
